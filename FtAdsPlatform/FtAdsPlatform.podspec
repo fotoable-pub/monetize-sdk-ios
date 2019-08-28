@@ -25,8 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/fotoable-pub/monetize-sdk-ios.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "FtAdsPlatform.framework"
  
 
 end
