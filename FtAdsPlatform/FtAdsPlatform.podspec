@@ -1,10 +1,3 @@
-#
-#  Be sure to run `pod spec lint FtAdsPlatform.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |spec|
 
@@ -30,7 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "9.0"
 
-  spec.source       = { :git => "http://EXAMPLE/FtAdsPlatform.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fotoable-pub/monetize-sdk-ios.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
