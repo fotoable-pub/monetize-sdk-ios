@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FtAdsPlatform'
-  s.version          = '0.0.4'
-  s.summary          = 'FtAdsPlatform.'
+  s.version          = '0.0.5'
+  s.summary          = 'A FtAdsPlatform view used on iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
- 变现联盟 变现联盟 变现联盟 变现联盟
+It is a FtAdsPlatform used on iOS, which implement by Objective-C.
                        DESC
 
   s.homepage         = 'https://github.com/fotoable-pub/monetize-sdk-ios'
@@ -29,14 +29,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FtAdsPlatform/Classes/**/*'
+  # s.source_files = 'FtAdsPlatform/FtAdsPlatform/Classes/**/*'
 
-  s.vendored_frameworks = 'FtAdsPlatform/Classes/*.framework'
-  # s.resource_bundles = {
-  #   'FtAdsPlatform' => ['FtAdsPlatform/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'FtAdsPlatform/FtAdsPlatform.framework' 
+ 
 end
