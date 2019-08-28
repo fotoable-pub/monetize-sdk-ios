@@ -1,0 +1,5 @@
+#import "FATDatabase.h"
+#import "FATResultSet.h"
+#import "FMDatabaseAdditions.h"
+#import "FATDatabaseQueue.h"
+#import "FATDatabasePool.h"
