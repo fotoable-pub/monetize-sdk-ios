@@ -1,31 +1,41 @@
+#
+# Be sure to run `pod lib lint FtAdsPlatform.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
+  s.name             = 'FtAdsPlatform'
+  s.version          = '0.0.3'
+  s.summary          = 'FtAdsPlatform.'
 
-  spec.name         = "FtAdsPlatform"
-  spec.version      = "0.0.1"
-  spec.summary      = "变现联盟" 
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  spec.description  = <<-DESC
-                    变现联盟
-                   DESC
+  s.description      = <<-DESC
+ 变现联盟
+                       DESC
 
-  spec.homepage     = "https://github.com/fotoable-pub/monetize-sdk-ios" 
- 
+  s.homepage         = 'https://github.com/fotoable-pub/monetize-sdk-ios'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'liushuai-fotoable' => 'liushuai@fotoable.com' }
+  s.source           = { :git => 'https://github.com/fotoable-pub/monetize-sdk-ios.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" } 
+  s.ios.deployment_target = '9.0'
 
+  s.source_files = 'FtAdsPlatform/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'FtAdsPlatform' => ['FtAdsPlatform/Assets/*.png']
+  # }
 
-  spec.author             = { "ls" => "liushuai@fotoable.com" }
-
-
-  spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
-
-  spec.ios.deployment_target = "9.0"
-
-  spec.source       = { :git => "https://github.com/fotoable-pub/monetize-sdk-ios.git", :tag => "#{spec.version}" }
-
-  spec.source_files  = "FtAdsPlatform/FtAdsPlatform.framework"
- 
-
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
