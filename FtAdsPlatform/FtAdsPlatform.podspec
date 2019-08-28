@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
- 变现联盟
+ 变现联盟 变现联盟 变现联盟 变现联盟
                        DESC
 
   s.homepage         = 'https://github.com/fotoable-pub/monetize-sdk-ios'
@@ -29,8 +29,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FtAdsPlatform/Classes/**/*'
-  
+    # s.source_files = 'FtAdsPlatform/Classes/**/*'
+
+  s.vendored_frameworks = 'FtAdsPlatform/Classes/*.framework'
   # s.resource_bundles = {
   #   'FtAdsPlatform' => ['FtAdsPlatform/Assets/*.png']
   # }
