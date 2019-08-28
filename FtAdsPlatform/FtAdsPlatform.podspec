@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FtAdsPlatform'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'FtAdsPlatform.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-    # s.source_files = 'FtAdsPlatform/Classes/**/*'
+  s.source_files = 'FtAdsPlatform/Classes/**/*'
 
   s.vendored_frameworks = 'FtAdsPlatform/Classes/*.framework'
   # s.resource_bundles = {
