@@ -1,0 +1,6 @@
+framework module FAT_ads {
+  umbrella header "FAT_ads.h"
+
+  export *
+  module * { export * }
+}
