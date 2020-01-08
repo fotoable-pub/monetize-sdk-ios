@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FtAdsPlatform'
-  s.version          = '0.0.8'
-  s.summary          = 'A FtAdsPlatform view used on iOS.'
+  s.name             = 'FTAdBaseAdapter'
+  s.version          = '1.0.0.1'
+  s.summary          = 'Base a Adapter '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-It is a FtAdsPlatform used on iOS, which implement by Objective-C.
+It is a FTAdBaseAdapter used on iOS, which implement by Objective-C.
                        DESC
 
   s.homepage         = 'https://github.com/fotoable-pub/monetize-sdk-ios'

@@ -1,6 +1,0 @@
-framework module FtAdsPlatform {
-  umbrella header "FtAdsPlatform.h"
-
-  export *
-  module * { export * }
-}

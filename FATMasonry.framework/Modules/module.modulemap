@@ -1,6 +1,0 @@
-framework module FATMasonry {
-  umbrella header "FATMasonry.h"
-
-  export *
-  module * { export * }
-}

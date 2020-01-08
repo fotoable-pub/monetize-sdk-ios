@@ -1,6 +1,0 @@
-framework module FATSqlData {
-  umbrella header "FATSqlData.h"
-
-  export *
-  module * { export * }
-}
