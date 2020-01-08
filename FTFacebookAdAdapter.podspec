@@ -24,7 +24,7 @@ It is a FTAdBaseAdapter used on iOS, which implement by Objective-C.
   s.homepage         = 'https://github.com/fotoable-pub/monetize-sdk-ios'
   s.license          = { :type => 'MIT'}
   s.author           = { 'liushuai-fotoable' => 'liushuai@fotoable.com' }
-  s.source           = { :http => 'https://github.com/fotoable-pub/monetize-sdk-ios/raw/master/FTAdBaseAdapter-1.0.0.1.zip'}
+  s.source           = { :http => 'https://github.com/fotoable-pub/monetize-sdk-ios/raw/master/FTFacebookAdAdapter.framework-0.0.1.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
