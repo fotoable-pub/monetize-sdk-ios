@@ -1,0 +1,6 @@
+framework module FTAdmobAdapter {
+  umbrella header "FTAdmobAdapter.h"
+
+  export *
+  module * { export * }
+}
